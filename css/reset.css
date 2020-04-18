@@ -1,0 +1,23 @@
+/* Reseta algumas configurações padrões do html */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #dfe6e9;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
