@@ -18,3 +18,15 @@ toggleMenu = (event) => {
 
   alvo.classList.contains("botao-ativo") ? desativar(alvo) : ativar(alvo);
 };
+
+enviarEmail = () => {
+  const inputs = document.querySelectorAll("input");
+  const textarea = document.querySelector("textarea");
+  inputs.map((input) => {
+    input.value
+      ? alert("Todos os campos precisam ser preenchidos")
+      : textarea.value
+      ? alert("A mensagem precisa ser preenchica")
+      : alert("email enviado com sucesso, obrigado");
+  });
+};
