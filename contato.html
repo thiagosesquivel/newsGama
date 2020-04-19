@@ -28,7 +28,7 @@
         <div class="row">
           <div class="card card-auto">
             <h1>Queremos te ouvir! Manda aí seu feedback</h1>
-            <form action="" class="form">
+            <form action="" onsubmit="enviarEmail(event)" class="form">
               <div class="input-group">
                 <label for="">Seu Nome</label>
                 <input type="text" required />
@@ -40,9 +40,9 @@
               </div>
               <div class="input-group">
                 <label for="">Mensagem</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="" id="" cols="30" required rows="10"></textarea>
               </div>
-              <button type="button" onsubmit="enviarEmail()" class="botao lg">
+              <button type="submit" class="botao lg">
                 Enviar
               </button>
             </form>
