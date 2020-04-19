@@ -64,7 +64,7 @@ main {
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   overflow: hidden;
-  height: 500px;
+  height: 580px;
 }
 
 .card-longo {
@@ -308,6 +308,10 @@ main {
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 500px);
+  }
+
+  .card-auto {
+    height: auto;
   }
 }
 
