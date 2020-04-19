@@ -22,4 +22,11 @@ toggleMenu = (event) => {
 enviarEmail = (event) => {
   event.preventDefault();
   alert("Email enviado com sucesso!");
+  const inputs = document.querySelectorAll("input");
+  inputs.forEach((input) => {
+    input.value = "";
+  });
+
+  const textarea = document.querySelector("textarea");
+  textarea.value = "";
 };
